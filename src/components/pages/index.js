@@ -37,9 +37,8 @@ export default class Pages extends PureComponent {
   };
 
   static propTypes = {
-    style: ViewPropTypes.style,
-    containerStyle: ViewPropTypes.style,
-
+    style: PropTypes.object,
+    containerStyle: PropTypes.object,
     indicatorColor: PropTypes.string,
     indicatorOpacity: PropTypes.number,
     indicatorPosition: PropTypes.oneOf([
