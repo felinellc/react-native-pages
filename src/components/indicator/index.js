@@ -6,7 +6,7 @@ import styles from './styles';
 
 export default class Indicator extends PureComponent {
   static propTypes = {
-    style: ViewPropTypes.style,
+    style: PropTypes.object,
 
     pages: PropTypes.number.isRequired,
     progress: PropTypes.instanceOf(Animated.Value).isRequired,
